@@ -1,4 +1,4 @@
-Ishan Upanee — Finance & Python Projects
+Ishan  — Finance & Python Projects
 
 ACCA student building Python tools for accounting and finance.
 

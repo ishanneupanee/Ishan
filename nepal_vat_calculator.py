@@ -1,4 +1,4 @@
-print ('please enter YES or No')
+print ('please enter YES or NO')
 
 annual_taxable_purchases_goods=0
 annual_taxable_sales_goods=0
@@ -20,11 +20,11 @@ if Goods_Services == 'YES':
     Input_Vat =(annual_taxable_purchase_Goods_Services  * 13/100)
     print(f'Input_Vat={Input_Vat:.2f}')
     if Output_Vat >  Input_Vat:
-        print (f'Vat Payable to government ={Output_Vat - Input_Vat:.2f}')
+        print (f'Vat Payable to government = NPR{Output_Vat - Input_Vat:.2f}')
     elif Output_Vat ==  Input_Vat:
         print ('No VAT payable or receivable ')
     else:
-        print(f'Vat Receivable from government ={ Input_Vat - Output_Vat:.2f}')
+        print(f'Vat Receivable from government = NPR{Input_Vat - Output_Vat:.2f}')
 else:
     Goods=input('Do you supply taxable goods?:')
     Goods= Goods.upper()
@@ -36,11 +36,11 @@ else:
         Input_Vat =(annual_taxable_purchases_goods  * 13/100)
         print(f'Input_Vat={Input_Vat:.2f}')
         if Output_Vat >  Input_Vat:
-            print (f'Vat Payable to government ={Output_Vat - Input_Vat:.2f}')
+            print (f'Vat Payable to government = NPR{Output_Vat - Input_Vat:.2f}')
         elif Output_Vat ==  Input_Vat:
             print ('No VAT payable or receivable ')
         else:
-            print(f'Vat Receivable from government ={ Input_Vat - Output_Vat:.2f}')
+            print(f'Vat Receivable from government = NPR{Input_Vat - Output_Vat:.2f}')
     else:
         Services=input('Do you supply taxable services?:')
         Services= Services.upper()
@@ -52,8 +52,8 @@ else:
             Input_Vat =(annual_taxable_services_you_purchased  * 13/100)
             print(f'Input_Vat={Input_Vat:.2f}')
             if Output_Vat >  Input_Vat:
-                print (f'Vat Payable to government ={Output_Vat - Input_Vat:.2f}')
+                print (f'Vat Payable to government = NPR{Output_Vat - Input_Vat:.2f}')
             elif Output_Vat ==  Input_Vat:
                  print ('No VAT payable or receivable ')
             else:
-                 print(f'Vat Receivable from government ={ Input_Vat - Output_Vat:.2f}')
+                 print(f'Vat Receivable from government = NPR{Input_Vat - Output_Vat:.2f}')
